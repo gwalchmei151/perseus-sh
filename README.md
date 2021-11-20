@@ -100,3 +100,53 @@ Example msfconsole output
 Kerberos not detected since masscan did not do service detection. Enter other information as per usual. The rest of the results are the same as above . 
 
 ![img20](./images/img20.png)
+
+## Man in the Middle
+
+The MitM attack in this is meant to be an Arp Spoof, but that only works on my computer due to the need for custom .pyarp spoofer
+
+The script gets the ip of the target and the ip of the gateway automatically.
+
+## MSF Venom Payload Creation
+
+Select Victim OS (nmap scan recommended for more info):
+
+![img21](./images/img21.png)
+
+Select Stager, name file, select target port:
+
+![img22](./images/img22.png)
+
+RC file is built and MSF Console is launched:
+
+![img23](./images/img23.png)
+
+MSF Console using RC file to set options and run exploit/multi/handler
+
+![img24](./images/img24.png)
+
+exploit/multi/handler session begun:
+
+![img25](./images/img25.png)
+
+## Generated Log Samples
+
+Nmap into MSF console Kerberos Enumusers
+
+![img26](./images/img26.png)
+
+Masscan into Brute Force SSH (Hydra)
+
+![img27](./images/img27.png)
+
+Masscan into MitM:
+
+![img28](./images/img28.png)
+
+Masscan into MSFVenom and then console:
+
+![img29](./images/img29.png)
+
+Nmap into MSFVenom then console
+
+![img30](./images/img30.png)
