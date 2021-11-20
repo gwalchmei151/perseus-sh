@@ -65,3 +65,38 @@ Discovered information (ports, protocols, services, and versions) will be displa
 
 ![img12](./images/img12.png)
 
+## Brute Force SSH
+
+### Through Masscan
+
+![img13](./images/img13.png)
+
+List successfull credentials and exit
+
+![img14](./images/img14.png)
+
+### Through Nmap
+
+![img15](./images/img15.png)
+
+## Kerberos Enum (msfconsole)
+
+### Through Nmap
+
+![img16](./images/img65.png)
+
+Enter information to create msfconsole resource file
+
+![img17](./images/img17.png)
+
+Example msfconsole output
+
+![img18](./images/img18.png)
+
+### Kerberos service not detected, manual port entry (for example if masscan is used instead of nmap):
+
+![img19](./images/img19.png)
+
+Kerberos not detected since masscan did not do service detection. Enter other information as per usual. The rest of the results are the same as above . 
+
+![img20](./images/img20.png)
