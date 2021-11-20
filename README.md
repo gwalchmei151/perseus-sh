@@ -27,3 +27,41 @@ Then proceed to welcome screen
 Check for missing programmes and ask for permission to install:
 
 ![img4](./images/img4.png)
+
+## Scan Phase
+
+Into main script after installation of missing programmes
+
+![img5](./images/img5.png)
+
+OR into main script without installation if necessary programmes present
+
+![img6](./images/img6.png)
+
+Scanning message
+
+![img7](./images/img7.png)
+
+Enumerate Hosts on network and generate list to choose target OR Enter target manually.
+Then choose desired scan method - nmap or masscan.
+
+![img8](./images/img8.png)
+
+## Masscan
+Choose first and last ports to set range
+
+![img9](./images/img9.png)
+
+Discovered ports will be listed and programme will ask for follow-up action
+
+![img10](./images/img10.png)
+
+## Nmap
+Script will automatically ``` nmap -A``` the target
+
+![img11](./images/img11.png)
+
+Discovered information (ports, protocols, services, and versions) will be displayed to the user
+
+![img12](./images/img12.png)
+
