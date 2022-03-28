@@ -83,7 +83,7 @@ List successfull credentials and exit
 
 ### Through Nmap
 
-![img16](./images/img65.png)
+![img16](./images/img16.png)
 
 Enter information to create msfconsole resource file
 
